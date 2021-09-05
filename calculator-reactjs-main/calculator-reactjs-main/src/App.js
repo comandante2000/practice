@@ -46,7 +46,7 @@ function App() {
 			display && updateState();
 		};
 		const calculate = lastInput => {
-			// CHECK IF LAST INPUT IS NUMBER AND OUTPUT IS NOT EMPTY
+			// CHECK IF LAST INPUT  NUMBER AND OUTPUT  NOT EMPTY
 			if (!symbols.includes(lastInput) && output) {
 				try {
 					history = output;
